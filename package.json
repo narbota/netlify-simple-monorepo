@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build:bike-store": "npm --prefix bike-store run build",
+    "install:bike-store": "npm --prefix bike-store install",
+    "build:bike-store": "npm run install:bike-store && npm --prefix bike-store run build",
+    "install:car-store": "npm --prefix car-store install",
     "build:car-store": "npm --prefix car-store run build"
   }
 }
