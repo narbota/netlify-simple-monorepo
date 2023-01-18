@@ -1,2 +1,2 @@
 [build]
-ignore = "diff-index --quiet HEAD ./ ../package.json"
+ignore = "git diff-index --quiet HEAD ./ ../package.json"
